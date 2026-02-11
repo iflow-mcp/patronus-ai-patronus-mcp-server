@@ -1,7 +1,8 @@
 [project]
 name = "iflow-mcp_patronus-ai-patronus-mcp-server"
-version = "0.1.0"
+version = "0.1.1"
 description = "Patronus MCP Server"
+requires-python = ">=3.11"
 authors = [
     { name = "Anand Kannappan", email = "anand@patronus.ai" }
 ]

@@ -1,0 +1,3 @@
+{
+  "serverConfig": "{\"mcpServers\":{\"patronus-mcp-server\":{\"command\":\"uvx\",\"args\":[\"--from\",\"iflow-mcp_patronus-ai-patronus-mcp-server\",\"patronus-mcp-server\"],\"env\":{\"PATRONUS_API_KEY\":\"${PATRONUS_API_KEY}\"},\"values\":{\"PATRONUS_API_KEY\":{\"type\":\"string\",\"title\":\"API密钥\",\"description\":\"Patronus API密钥，需要从https://www.patronus.ai/获取\",\"default\":\"test_key_for_demo\"}}}}}"
+}
