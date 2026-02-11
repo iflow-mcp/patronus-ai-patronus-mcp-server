@@ -1,5 +1,5 @@
 [project]
-name = "patronus-mcp-server"
+name = "iflow-mcp_patronus-ai-patronus-mcp-server"
 version = "0.1.0"
 description = "Patronus MCP Server"
 authors = [
@@ -11,6 +11,9 @@ dependencies = [
     "pandas>=2.2.3",
     "patronus>=0.1.1",
 ]
+
+[project.scripts]
+patronus-mcp-server = "patronus_mcp.server:main"
 
 [project.optional-dependencies]
 dev = [

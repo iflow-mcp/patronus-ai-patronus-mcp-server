@@ -436,7 +436,7 @@ def app_factory(patronus_api_key: str = None, patronus_api_url: str = "https://a
     return mcp
 
 
-def main():
+if __name__ == "__main__":
     parser = argparse.ArgumentParser()
     parser.add_argument(
         "--api-key", 
@@ -461,7 +461,3 @@ def main():
     app = app_factory(patronus_api_key, patronus_api_url)
     print("Starting MCP server with stdio transport")
     app.run(transport="stdio")
-
-
-if __name__ == "__main__":
-    main()
